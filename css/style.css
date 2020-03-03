@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f6f6f6;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 1010px;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 90px 100px 50px;
+}
+
+.block-text {
+  margin-left: 50px;
+}
+
+.title {
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.price {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.price-tag {
+  display: block;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.btn {
+  background-color: #ec744a;
+  color: #ffffff;
+  padding: 15px 35px;
+  font-size: 19px;
+  border: 0;
+}
